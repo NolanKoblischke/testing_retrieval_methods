@@ -1,0 +1,577 @@
+Column information for astronolan/gz-decals-embeddings dataset
+
+aion_search_embedding
+  Type: list, Shape: (1024,), Dtype: float64
+
+aion_mean_embedding
+  Type: list, Shape: (768,), Dtype: float64
+
+ra
+  Type: float, Value example: 45.0359397735308
+
+dec
+  Type: float, Value example: 5.804590021212281
+
+object_id
+  Type: str, Value example: 0450p057-2867
+
+iauname
+  Type: str, Value example: J030008.60+054815.9
+
+redshift
+  Type: float, Value example: 0.022188717499375343
+
+elpetro_absmag_r
+  Type: float, Value example: -20.36441421508789
+
+elpetro_absmag_r.mask
+  Type: bool, Value example: False
+
+sersic_nmgy_r
+  Type: float, Value example: 3653.318603515625
+
+petro_th50
+  Type: float, Value example: 5.966367244720459
+
+petro_th90
+  Type: float, Value example: 19.064943313598633
+
+petro_theta
+  Type: float, Value example: 17.59708023071289
+
+smooth-or-featured_total-votes
+  Type: int, Value example: 5
+
+smooth-or-featured_smooth
+  Type: int, Value example: 2
+
+smooth-or-featured_smooth_fraction
+  Type: float, Value example: 0.4000000059604645
+
+smooth-or-featured_smooth_debiased
+  Type: float, Value example: 0.0
+
+smooth-or-featured_smooth_debiased.mask
+  Type: bool, Value example: True
+
+smooth-or-featured_featured-or-disk
+  Type: int, Value example: 3
+
+smooth-or-featured_featured-or-disk_fraction
+  Type: float, Value example: 0.6000000238418579
+
+smooth-or-featured_featured-or-disk_debiased
+  Type: float, Value example: 0.0
+
+smooth-or-featured_featured-or-disk_debiased.mask
+  Type: bool, Value example: True
+
+smooth-or-featured_artifact
+  Type: int, Value example: 0
+
+smooth-or-featured_artifact_fraction
+  Type: float, Value example: 0.0
+
+smooth-or-featured_artifact_debiased
+  Type: float, Value example: 0.0
+
+smooth-or-featured_artifact_debiased.mask
+  Type: bool, Value example: True
+
+disk-edge-on_total-votes
+  Type: int, Value example: 3
+
+disk-edge-on_yes
+  Type: int, Value example: 0
+
+disk-edge-on_yes_fraction
+  Type: float, Value example: 0.0
+
+disk-edge-on_yes_fraction.mask
+  Type: bool, Value example: False
+
+disk-edge-on_yes_debiased
+  Type: float, Value example: 0.0
+
+disk-edge-on_yes_debiased.mask
+  Type: bool, Value example: True
+
+disk-edge-on_no
+  Type: int, Value example: 3
+
+disk-edge-on_no_fraction
+  Type: float, Value example: 1.0
+
+disk-edge-on_no_fraction.mask
+  Type: bool, Value example: False
+
+disk-edge-on_no_debiased
+  Type: float, Value example: 0.0
+
+disk-edge-on_no_debiased.mask
+  Type: bool, Value example: True
+
+has-spiral-arms_total-votes
+  Type: int, Value example: 3
+
+has-spiral-arms_yes
+  Type: int, Value example: 0
+
+has-spiral-arms_yes_fraction
+  Type: float, Value example: 0.0
+
+has-spiral-arms_yes_fraction.mask
+  Type: bool, Value example: False
+
+has-spiral-arms_yes_debiased
+  Type: float, Value example: 0.0
+
+has-spiral-arms_yes_debiased.mask
+  Type: bool, Value example: True
+
+has-spiral-arms_no
+  Type: int, Value example: 3
+
+has-spiral-arms_no_fraction
+  Type: float, Value example: 1.0
+
+has-spiral-arms_no_fraction.mask
+  Type: bool, Value example: False
+
+has-spiral-arms_no_debiased
+  Type: float, Value example: 0.0
+
+has-spiral-arms_no_debiased.mask
+  Type: bool, Value example: True
+
+bar_total-votes
+  Type: int, Value example: 3
+
+bar_strong
+  Type: int, Value example: 0
+
+bar_strong_fraction
+  Type: float, Value example: 0.0
+
+bar_strong_fraction.mask
+  Type: bool, Value example: False
+
+bar_strong_debiased
+  Type: float, Value example: 0.0
+
+bar_strong_debiased.mask
+  Type: bool, Value example: True
+
+bar_weak
+  Type: int, Value example: 0
+
+bar_weak_fraction
+  Type: float, Value example: 0.0
+
+bar_weak_fraction.mask
+  Type: bool, Value example: False
+
+bar_weak_debiased
+  Type: float, Value example: 0.0
+
+bar_weak_debiased.mask
+  Type: bool, Value example: True
+
+bar_no
+  Type: int, Value example: 3
+
+bar_no_fraction
+  Type: float, Value example: 1.0
+
+bar_no_fraction.mask
+  Type: bool, Value example: False
+
+bar_no_debiased
+  Type: float, Value example: 0.0
+
+bar_no_debiased.mask
+  Type: bool, Value example: True
+
+bulge-size_total-votes
+  Type: int, Value example: 3
+
+bulge-size_dominant
+  Type: int, Value example: 0
+
+bulge-size_dominant_fraction
+  Type: float, Value example: 0.0
+
+bulge-size_dominant_fraction.mask
+  Type: bool, Value example: False
+
+bulge-size_dominant_debiased
+  Type: float, Value example: 0.0
+
+bulge-size_dominant_debiased.mask
+  Type: bool, Value example: True
+
+bulge-size_large
+  Type: int, Value example: 2
+
+bulge-size_large_fraction
+  Type: float, Value example: 0.6666666865348816
+
+bulge-size_large_fraction.mask
+  Type: bool, Value example: False
+
+bulge-size_large_debiased
+  Type: float, Value example: 0.0
+
+bulge-size_large_debiased.mask
+  Type: bool, Value example: True
+
+bulge-size_moderate
+  Type: int, Value example: 0
+
+bulge-size_moderate_fraction
+  Type: float, Value example: 0.0
+
+bulge-size_moderate_fraction.mask
+  Type: bool, Value example: False
+
+bulge-size_moderate_debiased
+  Type: float, Value example: 0.0
+
+bulge-size_moderate_debiased.mask
+  Type: bool, Value example: True
+
+bulge-size_small
+  Type: int, Value example: 1
+
+bulge-size_small_fraction
+  Type: float, Value example: 0.3333333432674408
+
+bulge-size_small_fraction.mask
+  Type: bool, Value example: False
+
+bulge-size_small_debiased
+  Type: float, Value example: 0.0
+
+bulge-size_small_debiased.mask
+  Type: bool, Value example: True
+
+bulge-size_none
+  Type: int, Value example: 0
+
+bulge-size_none_fraction
+  Type: float, Value example: 0.0
+
+bulge-size_none_fraction.mask
+  Type: bool, Value example: False
+
+bulge-size_none_debiased
+  Type: float, Value example: 0.0
+
+bulge-size_none_debiased.mask
+  Type: bool, Value example: True
+
+how-rounded_total-votes
+  Type: int, Value example: 2
+
+how-rounded_round
+  Type: int, Value example: 2
+
+how-rounded_round_fraction
+  Type: float, Value example: 1.0
+
+how-rounded_round_fraction.mask
+  Type: bool, Value example: False
+
+how-rounded_round_debiased
+  Type: float, Value example: 0.0
+
+how-rounded_round_debiased.mask
+  Type: bool, Value example: True
+
+how-rounded_in-between
+  Type: int, Value example: 0
+
+how-rounded_in-between_fraction
+  Type: float, Value example: 0.0
+
+how-rounded_in-between_fraction.mask
+  Type: bool, Value example: False
+
+how-rounded_in-between_debiased
+  Type: float, Value example: 0.0
+
+how-rounded_in-between_debiased.mask
+  Type: bool, Value example: True
+
+how-rounded_cigar-shaped
+  Type: int, Value example: 0
+
+how-rounded_cigar-shaped_fraction
+  Type: float, Value example: 0.0
+
+how-rounded_cigar-shaped_fraction.mask
+  Type: bool, Value example: False
+
+how-rounded_cigar-shaped_debiased
+  Type: float, Value example: 0.0
+
+how-rounded_cigar-shaped_debiased.mask
+  Type: bool, Value example: True
+
+edge-on-bulge_total-votes
+  Type: int, Value example: 0
+
+edge-on-bulge_boxy
+  Type: int, Value example: 0
+
+edge-on-bulge_boxy_fraction
+  Type: float, Value example: 0.0
+
+edge-on-bulge_boxy_fraction.mask
+  Type: bool, Value example: True
+
+edge-on-bulge_boxy_debiased
+  Type: float, Value example: 0.0
+
+edge-on-bulge_boxy_debiased.mask
+  Type: bool, Value example: True
+
+edge-on-bulge_none
+  Type: int, Value example: 0
+
+edge-on-bulge_none_fraction
+  Type: float, Value example: 0.0
+
+edge-on-bulge_none_fraction.mask
+  Type: bool, Value example: True
+
+edge-on-bulge_none_debiased
+  Type: float, Value example: 0.0
+
+edge-on-bulge_none_debiased.mask
+  Type: bool, Value example: True
+
+edge-on-bulge_rounded
+  Type: int, Value example: 0
+
+edge-on-bulge_rounded_fraction
+  Type: float, Value example: 0.0
+
+edge-on-bulge_rounded_fraction.mask
+  Type: bool, Value example: True
+
+edge-on-bulge_rounded_debiased
+  Type: float, Value example: 0.0
+
+edge-on-bulge_rounded_debiased.mask
+  Type: bool, Value example: True
+
+spiral-winding_total-votes
+  Type: int, Value example: 0
+
+spiral-winding_tight
+  Type: int, Value example: 0
+
+spiral-winding_tight_fraction
+  Type: float, Value example: 0.0
+
+spiral-winding_tight_fraction.mask
+  Type: bool, Value example: True
+
+spiral-winding_tight_debiased
+  Type: float, Value example: 0.0
+
+spiral-winding_tight_debiased.mask
+  Type: bool, Value example: True
+
+spiral-winding_medium
+  Type: int, Value example: 0
+
+spiral-winding_medium_fraction
+  Type: float, Value example: 0.0
+
+spiral-winding_medium_fraction.mask
+  Type: bool, Value example: True
+
+spiral-winding_medium_debiased
+  Type: float, Value example: 0.0
+
+spiral-winding_medium_debiased.mask
+  Type: bool, Value example: True
+
+spiral-winding_loose
+  Type: int, Value example: 0
+
+spiral-winding_loose_fraction
+  Type: float, Value example: 0.0
+
+spiral-winding_loose_fraction.mask
+  Type: bool, Value example: True
+
+spiral-winding_loose_debiased
+  Type: float, Value example: 0.0
+
+spiral-winding_loose_debiased.mask
+  Type: bool, Value example: True
+
+spiral-arm-count_total-votes
+  Type: int, Value example: 0
+
+spiral-arm-count_1
+  Type: int, Value example: 0
+
+spiral-arm-count_1_fraction
+  Type: float, Value example: 0.0
+
+spiral-arm-count_1_fraction.mask
+  Type: bool, Value example: True
+
+spiral-arm-count_1_debiased
+  Type: float, Value example: 0.0
+
+spiral-arm-count_1_debiased.mask
+  Type: bool, Value example: True
+
+spiral-arm-count_2
+  Type: int, Value example: 0
+
+spiral-arm-count_2_fraction
+  Type: float, Value example: 0.0
+
+spiral-arm-count_2_fraction.mask
+  Type: bool, Value example: True
+
+spiral-arm-count_2_debiased
+  Type: float, Value example: 0.0
+
+spiral-arm-count_2_debiased.mask
+  Type: bool, Value example: True
+
+spiral-arm-count_3
+  Type: int, Value example: 0
+
+spiral-arm-count_3_fraction
+  Type: float, Value example: 0.0
+
+spiral-arm-count_3_fraction.mask
+  Type: bool, Value example: True
+
+spiral-arm-count_3_debiased
+  Type: float, Value example: 0.0
+
+spiral-arm-count_3_debiased.mask
+  Type: bool, Value example: True
+
+spiral-arm-count_4
+  Type: int, Value example: 0
+
+spiral-arm-count_4_fraction
+  Type: float, Value example: 0.0
+
+spiral-arm-count_4_fraction.mask
+  Type: bool, Value example: True
+
+spiral-arm-count_4_debiased
+  Type: float, Value example: 0.0
+
+spiral-arm-count_4_debiased.mask
+  Type: bool, Value example: True
+
+spiral-arm-count_more-than-4
+  Type: int, Value example: 0
+
+spiral-arm-count_more-than-4_fraction
+  Type: float, Value example: 0.0
+
+spiral-arm-count_more-than-4_fraction.mask
+  Type: bool, Value example: True
+
+spiral-arm-count_more-than-4_debiased
+  Type: float, Value example: 0.0
+
+spiral-arm-count_more-than-4_debiased.mask
+  Type: bool, Value example: True
+
+spiral-arm-count_cant-tell
+  Type: int, Value example: 0
+
+spiral-arm-count_cant-tell_fraction
+  Type: float, Value example: 0.0
+
+spiral-arm-count_cant-tell_fraction.mask
+  Type: bool, Value example: True
+
+spiral-arm-count_cant-tell_debiased
+  Type: float, Value example: 0.0
+
+spiral-arm-count_cant-tell_debiased.mask
+  Type: bool, Value example: True
+
+merging_total-votes
+  Type: int, Value example: 5
+
+merging_none
+  Type: int, Value example: 5
+
+merging_none_fraction
+  Type: float, Value example: 1.0
+
+merging_none_fraction.mask
+  Type: bool, Value example: False
+
+merging_none_debiased
+  Type: float, Value example: 0.0
+
+merging_none_debiased.mask
+  Type: bool, Value example: True
+
+merging_minor-disturbance
+  Type: int, Value example: 0
+
+merging_minor-disturbance_fraction
+  Type: float, Value example: 0.0
+
+merging_minor-disturbance_fraction.mask
+  Type: bool, Value example: False
+
+merging_minor-disturbance_debiased
+  Type: float, Value example: 0.0
+
+merging_minor-disturbance_debiased.mask
+  Type: bool, Value example: True
+
+merging_major-disturbance
+  Type: int, Value example: 0
+
+merging_major-disturbance_fraction
+  Type: float, Value example: 0.0
+
+merging_major-disturbance_fraction.mask
+  Type: bool, Value example: False
+
+merging_major-disturbance_debiased
+  Type: float, Value example: 0.0
+
+merging_major-disturbance_debiased.mask
+  Type: bool, Value example: True
+
+merging_merger
+  Type: int, Value example: 0
+
+merging_merger_fraction
+  Type: float, Value example: 0.0
+
+merging_merger_fraction.mask
+  Type: bool, Value example: False
+
+merging_merger_debiased
+  Type: float, Value example: 0.0
+
+merging_merger_debiased.mask
+  Type: bool, Value example: True
+
+wrong_size_statistic
+  Type: float, Value example: 147.3835906982422
+
+wrong_size_warning
+  Type: str, Value example: False
