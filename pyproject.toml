@@ -1,0 +1,18 @@
+[project]
+name = "gzdecalsaionsearch"
+version = "0.1.0"
+description = "Text and image search over Galaxy Zoo DECaLS embeddings using AION-Search"
+requires-python = ">=3.13"
+dependencies = [
+    "astropy>=7.2.0",
+    "datasets>=4.4.2",
+    "huggingface-hub>=1.2.3",
+    "numpy>=2.4.0",
+    "openai>=2.14.0",
+    "polymathic-aion>=0.0.2",
+    "pyarrow>=22.0.0",
+    "python-dotenv>=1.2.1",
+    "safetensors>=0.7.0",
+    "torch>=2.9.1",
+    "tqdm>=4.67.1",
+]
